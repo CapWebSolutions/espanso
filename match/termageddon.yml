@@ -1,0 +1,55 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+# matches:
+#   # Simple text replacement
+#   - trigger: ":espanso"
+#     replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
+matches:
+# wpcare sites
+  - trigger: ";Tupdated-licenses"
+    replace: |
+              Hi 
+              
+              This email is from Termageddon, your website policies provider, notifying you that they are automatically updating your Privacy Policy to reflect some newly required disclosures due to changing privacy laws. 
+
+              In the email, they mentioned that no action was required meaning you don’t have to do anything for this update to take effect, but they did encourage you to review your Privacy Policy.  
+
+              Here’s a link to your Privacy Policy if you want to review it: <domain>/privacy-policy
+              
+              Hope you are well and great to see your license is all up to date! 
+  - trigger: ";Tupdate-licenses-needed"
+    replace: |
+              Hi 
+              
+              This email is from Termageddon, your website policies provider, notifying you that they may need to update your Privacy Policy but can’t do so because your questionnaire needs to be updated/completed. These are questions about your business so I think it’s best that you answer them, ideally before September 1st. 
+
+              In the email, they mentioned some step-by-step instructions you can follow, but I also pasted them below:
+
+              - Log in with your EMAIL@EMAIL.COM email (if you forgot your password, reset it here (https://app.termageddon.com/password/reset) 
+              - Click on your license
+              - Click the purple ‘edit’ button to review your global answers and click ‘save’ when done
+              - Now click ‘edit policy details’ for the “Privacy Policy” and add in any answers to any blank/unanswered questions, clicking ‘next’ and ultimately ‘submit’. 
+              - Now you’ll be set up to receive this update for your Privacy Policy
+
+              They provide little “?” help icons for each question they ask, so if any question is confusing just click the icon to get more information. You can also reach out to them directly ( at https://app.termageddon.com/support ) if you have any questions by submitting a ticket in your account. 
+              
+              I know making Privacy Policy updates is not the most exciting thing, but this shouldn't take you too long to get these new questions answered, and then you’ll get the required new disclosures for your Privacy Policy completed and will be all up to date.
+
+              Be well,
+              Matt
+
+
+
+
+

@@ -1,0 +1,33 @@
+matches:
+  - trigger: 'MAtt'
+    replace: "Matt"
+    propagate_case: false
+    word: true
+  - trigger: 'downlaod'
+    replace: "download"
+    propagate_case: false
+    word: true
+  - trigger: 'CAll'
+    replace: "Call"
+    propagate_case: false
+    word: true
+  - triggers: ['PAyPal','PAypal','paypal','Paypal']
+    replace: "PayPal"
+    propagate_case: false
+    word: true   
+  - trigger: 'purhcase '
+    replace: "purchase "
+    propagate_case: false
+    word: true 
+  - trigger: 'Wpcare '
+    replace: "WPcare "
+    propagate_case: false
+    word: true 
+
+  - trigger: ';wp'
+    replace: "WordPress"
+
+  - triggers: ["Wordpress","wordpress"]
+    replace: "WordPress"
+    propagate_case: false
+

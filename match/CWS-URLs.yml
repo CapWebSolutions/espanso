@@ -1,0 +1,64 @@
+matches:
+- trigger: //domain
+  replace: capwebsolutions.com
+
+#
+# This uses nested matches. 
+- trigger: //home
+  replace: https://{{domain}}
+  vars:
+  - name: domain
+    type: match
+    params:
+      trigger: //domain
+
+- trigger: //wpcareplans
+  replace: '{{home}}/product-category/support/'
+  vars:
+  - name: home
+    type: match
+    params:
+      trigger: //home
+
+- trigger: //surls
+  replace: '{{home}}/sitemap/surls/'
+  vars:
+  - name: home
+    type: match
+    params:
+      trigger: //home
+
+- trigger: //questionnaire
+  replace: '{{home}}/website-project-profile/'
+  vars:
+  - name: home
+    type: match
+    params:
+      trigger: //home
+
+- trigger: //contact
+  replace: '{{home}}/contact/'
+  vars:
+  - name: home
+    type: match
+    params:
+      trigger: //home
+
+
+# This is getting confused with  //t time snippet. 
+# - trigger: //tinytasks
+#   replace: '{{home}}/services/cap-web-wpcare/listing-of-tiny-tasks/'
+#   vars:
+#   - name: home
+#     type: match
+#     params:
+#       trigger: //home
+
+
+- trigger: //credentials
+  replace: '{{home}}/provide-website-maintenance-credentials/'
+  vars:
+  - name: home
+    type: match
+    params:
+      trigger: //home

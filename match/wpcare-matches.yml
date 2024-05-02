@@ -1,0 +1,203 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+# matches:
+#   # Simple text replacement
+#   - trigger: ":espanso"
+#     replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
+matches:
+# wpcare sites
+  - trigger: "w.cap"
+    replace: "capwebsolutions.com"
+  - trigger: "w.duk"
+    replace: dukememorialbaptistchurch.org
+  - trigger: "w.gri"
+    replace: gristmillfarmalpacas.com
+  - trigger: "w.inn"
+    replace: innovationbydesignllc.net
+  - trigger: "w.laf"
+    replace: lafrankieprincipatoconsultancy.com
+  - trigger: "w.pen"
+    replace: penncat.com
+  - trigger: "w.pin"
+    replace: pinelandpilates.com
+  - trigger: "w.sje"
+    replace: sjecd.org
+  - trigger: "w.abb"
+    replace: abbyeryan.com
+  - trigger: "w.eas"
+    replace: easydoesitinc.org
+  - trigger: "w.ilo"
+    replace: ilovetophotographflowers.com
+  - trigger: "w.k9c"
+    replace: k9club.com
+  - trigger: "w.mat"
+    replace: mattryan.co
+  - trigger: "w.nmi"
+    replace: nmindjournal.com
+  - trigger: "w.rev"
+    replace: revivalcreations.com
+  - trigger: "w.stp"
+    replace: stpaulsglenside.org
+  - trigger: "w.wal"
+    replace: wallacecranes.com
+  - trigger: "w.weswesselrealestate.com"
+    replace: wesselrealestate.com
+  - trigger: "w.ccp"
+    replace: ccphoto.capwebsolutions.com
+  - trigger: "w.che"
+    replace: chestercountyphotographist.com
+  - trigger: "w.wpc"
+    replace: w.capwebwpcare.com
+  - trigger: "w.hos"
+    replace: capwebwpcarehosting.com
+#
+# WPcare Emails
+  - trigger: ";Increase24WPcare"    
+    replace: |
+              Hi $|$,
+              
+              I trust this note finds you well as move into the 4th quarter of 2023.
+              
+              Since 2017, Cap Web Solutions has been able to keep the same monthly rate for our WPcare website care & support services in spite of rising costs resulting from monitoring services, off-site storage, and labor. As much as I would like to maintain the current rate for another year, I find that I must increase the standard monthly pricing to enable us to provide the quality website care & support services you have come to expect.
+              
+              Effective with your January 2024 monthly WPcare renewal, the new care & support fee for your website will be XXXX. Your plan includes <XXX> hours of support services (aka "Tiny Tasks"), weekly updates, daily backups with off-site storage, security, malware, and uptime monitoring. View this link for all the details. Additional hours over the included support services time will now be invoiced at zzz. 
+
+              Annual WPcare plans still include a the 2-month free option as they currently do.
+              
+              Your WPcare plan does include a quarterly website review call. This call gives us an opportunity to talk about the plans you have for your website and how I can help you achieve those goals in the coming quarter. You can schedule this call at calendly.com/capweb/wpcare-quarterly-website-review.
+              
+              I value you as a client and want to continue serving you. If you have questions or concerns about this increase, please give me a call <insert schedule call> or shoot me an email.
+              
+              If your website support needs have increased and you find yourself needing more, or fewer, hours to accomplish the goals you have for your website, you can visit this link <> to see all care plans available.
+
+              All the best to you,
+              Matt
+
+              Note: If your website is more than 3 or 4 years old, it may be time to think about a redesign or overall update, or maybe review how it is performing from an SEO perspective. Either way, give me a call, and let's talk about it. 
+  - trigger: ";Increase24HostingOnlyWPcare"
+    replace: |
+              Hi $|$,
+
+              I trust this note finds you well as we move into the 4th quarter of 2023.
+
+              Since 2017, Cap Web Solutions has been able to keep the same hourly rate for our WPcare website professional WordPress services. As much as I would like to maintain the current rate for another year, I find that I must increase the standard hourly pricing to enable me to provide the quality website care & support services you have come to expect.
+              
+              Effective January 1, 2024, the new hourly rate for any support hours you request will be invoiced at $105/hour. You have used littel to no support hours over the past 2 years. 
+
+              Additionally, the monthly hosting will increase from $24/month to $26/month. If you choose to pay for a year in advance, you will get 2 months free. 12 months of hosting for $260. Remember that your hosting does include monthly website updates for WordPress, themes and plugins.  
+
+              The hourly rate applies to any website assistance you request from Cap Web Solutions. As a hosting-only customer, I will provide you with an estimate of the cost for any work you request of us prior to beginning the work. 
+
+              I value you as a client and want to continue serving you. If you have questions or concerns about this increase, please give me a call or shoot me an email.
+
+              All the best to you as we wrap up 2023,
+              Matt
+
+              Note: If your website is more than 3 or 4 years old, it may be time to think about adding new features, a partial redesign or overall update, or maybe review how it is performing from an SEO perspective. Either way, give me a call, and let's talk about it. 
+  - trigger: ";wpcarewelcome"
+    replace: |
+              Hi $|$,
+              
+              Welcome to WPcare from Cap Web Solutions. I am so pleased that you are trusting us with the care and support of your WordPress website.
+
+              Today you will receive (or already have received) your initial monthly invoice(s) for services that Cap Web Solutions provides to you.
+
+              One invoice is for the monthly WPcare subscription for the upcoming month. It is an automatically generated invoice that is sent out from the capwebsolutions.com website for the care plan you have selected. You can manage that subscription directly on our website at https://capwebsolutions.com/my-account. You can update your plan at any time, update your address and payment methods. There you can set up the automatic payment so that the invoices is handled for you.
+
+              Please note that we do not store your credit card or bank account information on the website. That information is maintained by the payment gateway we use. Our primary payment gateway is Stripe. You can view their policies regarding protecting your personally identifiable information on their website. The payment gateway creates a token that we maintain on our website. That token is used to communicate with the stored data on the payment gateway.
+
+              A second invoice you may receive will be for any on-demand WordPress assistance we provided in the past month. If your care plan includes professional support hours, those hours are credited on the invoice, and you are charged for any overage.  This invoice is currently being issued by our timekeeping and accounting service - FreshBooks. This invoice is only issued when you do have professional service hours over and above the hours included in your monthly plan.
+
+              I apologize in advance for the multiple invoice setup. It is not ideal, but it works for this small business owner who absolutely hates accounting stuff :-(
+
+              I'm happy to answer any questions you may have. Use the link below to set up a call.
+
+              We will be issuing an initial care review report in the next day or two addressing things we have found to address and anything that we recommend further investigation.
+
+              Be well,
+              Matt
+
+  - trigger: ";php73eol"
+    replace: |
+              Hi $|$,
+
+              I wanted to alert you that the subject website is running on PHP 7.3, That version of PHP reached end of life for security updates on Dec 6, 2021.
+
+              You can view the lifecycle here. <link to https://www.php.net/eol.php>
+              
+              I strongly recommend that we put together a plan to update the hosting server / plan for the site to PHP 7.4 at a minimum and PHP 8.0 preferred.
+
+              Here is the listing of PHP supported versions with their specific support dates. <link to https://www.php.net/supported-versions.php>
+
+              I do not currently have access to the hosting portal for this website. I cannot offer a specific plan for the upgrade without access.
+
+              Let me know how you would like to proceed with this, or if you want to put it on hold.
+
+              Thanks,
+              Matt
+
+  - trigger: ";dnsvideo"
+    replace: "Take a look at this video to get a great overview on DNS. <https://www.youtube.com/watch?v=uXWwpj0hjRk>"
+#
+# Refer copywriter
+  - trigger: ";refercopyw"
+    replace: |
+              Hi $|$,
+              
+              I work with a few different content writers. I have not worked with any specific marketing firms to help promote websites.
+
+              The two areas are very different. It's more likely that you will find a marketing firm that can assist with copywriting, rather than a copy-writer skilled in SEO.
+
+              However, I do have a few referrals for you. Specifically for copy-writing:
+
+              1. Abby Ryan - abbyeryan.com/contact-abby/ 
+                - Yes, she is related to me. My Daughter-in-law. Very talented. https://www.linkedin.com/in/abby-e-ryan/ 
+                  Abby's copywriting services are included with every website proposal I put together.
+              2. Deidre Rienzo - connectwithcopy.com/ - deidre@connectwithcopy.com
+              3. Elizabeth Mesley - rankwranglers.com - info@rankwranglers.com
+              4. Cathy Goodwin - cathygoodwin.com - cathy@cathygoodwin.com
+
+              SEO/Marketing:
+              1. Seth Goldstein - https://goldsteinmedia.com/ - information@goldsteinmedia.com
+              2. Elizabeth Mesley - rankwranglers.com - info@rankwranglers.com 
+              
+              I'm happy to make an e-introduction for you to any of these folks if you'd like. 
+#
+# Offboarding from WPcare - link to archvie file
+  - trigger: ";refercopyw"
+    replace: |
+              Hello $|$,
+
+              I have completed the off-boarding of your website(s) from our WPcare website support plan.
+
+              There are a couple of tasks that I ask that you do to complete the process.
+                - Delete the user  wpcarefrom the website. Any content can be assigned to an admin user.
+                - Remove any SFTP login credentials from the hosting server that Cap Web Solutions has access to, or change the associated passwords.
+                
+              Download Final Backup of site.
+              The final backup of your website can be downloaded using the link(s) below. This archive will be available for 30 days. After that, it will be automatically deleted.
+              example.com - < >
+              
+              I do appreciate the opportunity to look after your website(s) and wish you all the best in your future endeavors!
+              
+              Don't hesitate to reach out to me if you have any questions.
+
+              All the best,
+              Matt
+
+
+
+      
+
+

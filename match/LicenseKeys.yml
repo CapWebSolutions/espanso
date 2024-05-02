@@ -1,0 +1,34 @@
+matches:
+- trigger: l.booklypro
+  replace: 2c809cb8-74ad-46db-b028-07937bea8078
+- trigger: l.gitupdater
+  replace: sk_HYVPFGSIaJ?hAIU6!B26&2KxFvyxj
+- trigger: l.filezillapro
+  replace: ZTB6-3QM5-8YVY-JBFR-7J7B
+- trigger: l.brains
+  replace: ee93c772-9e51-479b-ab1e-3437245cf496
+- trigger: l.Kadencepro
+  replace: esn_wc_order_EY2xf6HoUnMqd_am_0G2e4UvY9dPS
+- trigger: l.wpallimport
+  replace: ea20103ab586de312ede9b7f886f4e7a
+- trigger: l.wpallexport
+  replace: d3e9e488258ea6273928dd8ac1cf19e2
+- trigger: l.gravity
+  replace: 27e8f9210c88570e7d127ba617b11a54
+- trigger: l.beaver
+  replace: 7a62702e6661627667687962666f726a636e704067676e7a
+- trigger: l.imageattributes
+  replace: 9C3B-7333-B9D2-D66E-0DA5
+- trigger: l.fireshot
+  replace: 63M6-LTPG-33CQ-PW6S-U7X8-QEPH
+- trigger: l.acfpro
+  replace: b3JkZXJfaWQ9ODY3OTh8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE2LTA4LTAyIDEzOjA5OjMy
+- trigger: l.metabox
+  replace: b9b31f222017793574eb84f700422e1b
+- trigger: l.screamingfrog
+  replace: C5383BA3A4-1697932800-59D5606FC1
+- trigger: l.balsamiq
+  replace: CapWebSolutions|K68veJxzCncxifcNC403rHFOLFAIT01SCM7PKS3JzM8rrjE0NzAyMTcxMDQAAgAjWAy9
+- trigger: l.elementorpro
+  replace: ep-HyGPP4PIGnyX2PkDGbef1664404584EDhXBeKBeTKD
+

@@ -1,0 +1,5 @@
+matches:
+- trigger: ll;
+  replace: Get-ChildItem $|$
+- trigger: nodev;
+  replace: node -v && npm -v

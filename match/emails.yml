@@ -1,0 +1,21 @@
+matches:
+  - trigger: ';ec'
+    replace: "matt@capwebsolutions.com"
+
+  - trigger: ';emrco'
+    replace: "matt@mattryan.co"
+
+  - trigger: ';eic'
+    replace: "info@capwebsolutions.com"
+
+  - trigger: ';emsr '
+    replace: "msr1222@gmail.com"
+
+  - trigger: ';edm'
+    replace: "emare@duck.com"
+
+  - trigger: ';edc'
+    replace: "capwebsolutions@duck.com"
+
+  - trigger: ';esc'
+    replace: "support@capwebsolutions.com"

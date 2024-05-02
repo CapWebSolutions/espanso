@@ -1,0 +1,52 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+# matches:
+#   # Simple text replacement
+#   - trigger: ":espanso"
+#     replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
+matches:
+  # My fav color hex colr - Charter Blue #546E91
+  - trigger: ";chart"
+    replace: "546E91"
+
+  - trigger: ";changelog"
+    replace: |
+              # Changelog
+              
+              All notable changes to this project will be documented in this file.
+              
+              The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+              and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+              
+              ## [ $|$ ] yyyy-mm-dd
+              
+              ### Added
+              
+                - xxx
+
+              ### Changed
+              
+                - 
+
+              ### Removed
+              
+                - 
+
+              ### Fixed
+
+                - 
+  - trigger: "empty.no"
+    replace: empty for no passphrase!
+
+  

@@ -1,0 +1,4 @@
+matches:
+  - trigger: ';namesp'
+    replace: "__NAMESPACE__ . \'\\"
+

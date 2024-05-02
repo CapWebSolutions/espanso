@@ -1,0 +1,41 @@
+matches:
+  - trigger: ';tm'
+    replace: "Thanks,\nMatt"
+    propagate_case: false
+    word: true
+
+  - trigger: ';atbm'
+    replace: "All the best,\nMatt"
+    propagate_case: false
+    word: true
+
+  # - trigger: ';ss'
+  #   replace: "Stay safe,\nMatt"
+  #   propagate_case: false
+  #   word: true
+
+  - trigger: ';bw'
+    replace: "Be well,\nMatt"
+    propagate_case: false
+    word: true
+
+  - trigger: ';tc'
+    replace: "Take care,\nMatt"
+    propagate_case: false
+    word: true
+
+  - trigger: ';ecmsig'
+    replace: |
+              Matt Ryan
+              Founder / CEO
+               
+              phone icon (484)798-0859
+              location icon 2969 Lincoln Hwy #731 Sadsburyville, PA 19369
+              globe icon capwebsolutions.com
+              mail icon matt@capwebsolutions.com
+
+              twitter icon  linkedin icon        
+
+  - trigger: ';[cws'
+    replace: "[cap Web Solutions ] $|$" 
+
