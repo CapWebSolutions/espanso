@@ -31,3 +31,7 @@ matches:
     replace: "WordPress"
     propagate_case: false
 
+  - triggers: ["biogrsaphy","biogrphy", "biogrsphy"]
+    replace: "biography"
+    propagate_case: false
+

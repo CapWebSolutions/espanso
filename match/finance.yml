@@ -1,0 +1,8 @@
+matches:
+  - trigger: ';venmo-me'
+    replace: "https://venmo.com/u/Matt-Ryan1958"
+    propagate_case: false
+  - trigger: ';paypal-me'
+    replace: "https://paypal.me/mryan58"
+    propagate_case: false
+
